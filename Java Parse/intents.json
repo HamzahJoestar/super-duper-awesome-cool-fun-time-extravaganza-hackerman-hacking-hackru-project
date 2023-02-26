@@ -1,6 +1,323 @@
 {"intents": [
-    {"tag":,
-     "patterns":[],
-     "responses":[],
+    {"tag":"getting_started",
+     "patterns":["Which mobile devices can run the app?", "mobile devices", "how to run app?"],
+     "responses":["Mobile App is available for iPhone, iPad & Android devices only. iPhone and iPad devices require iOS 13.0 or higher, and Android devices require Android OS 9.0 or higher. Rooted and jailbroken devices are not supported."]
+    },
+    {"tag":"getting_started",
+     "patterns":["What are some popular features of the app?", "features", "popular features?"],
+     "responses":["Buy Tickets - purchase and display your bus, train or light rail tickets and pass\n\nDepartureVision - Get real-time train departures by station\n\nMyBus - Get real-time bus status for your bus stop\n\nHow Full Is My Ride? - Get capacity information about your shared bus or train ride\n\nMy Transit Alerts - Get notifications on changes to your registered trips"]
+    },
+    {"tag":"getting_started",
+     "patterns":["What can I buy using the app?", "things to buy", "purchase options"],
+     "responses":["Purchase tickets and passes for train, bus and light rail travel. At this time the app cannot be used to pay for parking fees or Access Link travel."]
+    },
+    {"tag":"managing_account",
+     "patterns":["How do I setup a MyTix account?", "MyTix setup", "create MyTix"],
+     "responses":["It's simple to get started. Enter your email address, a password, phone number and your zip code to set up your account profile."]
+    },
+    {"tag":"managing_account",
+     "patterns":["Where can I use mobile ticketing?", "mobile ticketing options", "mobile ticketing"],
+     "responses":["Mobile ticketing is available for travel on all NJ TRANSIT rail lines, bus routes and light rail."]
+    },
+    {"tag":"managing_account",
+     "patterns":["Can I use MyTix on multiple devices?", "Where can I use MyTix", "how many devices for MyTix"],
+     "responses":["To ensure access to your ticket(s), your MyTix account must be accessed from a single device. "]
+    },
+    {"tag":"managing_account",
+     "patterns":["How do I change/correct my User ID/Email?", "change ID", "change email","correct account details"],
+     "responses":["Select More > User Profile.  Type over your email address then click, Update Your Profile."]
+    },
+    {"tag":"managing_account",
+     "patterns":["Do I need a credit card to have a MyTix account?", "how to pay for MyTix", "payment options"],
+     "responses":["A credit or debit card, commuter benefit card or other prepaid card such as a reloadable card is only required to make a purchase.  You can also buy tickets using Apple Pay, Google Pay or Pay Pal."]
+    },
+    {"tag":"managing_account",
+     "patterns":["How do I update my credit card information?", "update payment", "change card information"],
+     "responses":["Login to your account to update your payment method at any time. \n\nSelect More > Payment Methods > Add Credit Card or PayPal Account \n\nTo remove a payment method, swipe right on the stored payment method and tap Delete."]
+    },
+    {"tag":"managing_account",
+     "patterns":["How do I change my password?", "reset password", "change password"],
+     "responses":["Select More > Change Password > and follow the instructions to update your password. \n\nNote: Passwords must be at least 8 characters and contain an uppercase letter, a lowercase letter, a number and a special character selected from the following @, #, $, =, &, +."]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["What type of rail tickets can I purchase with MyTix?","MyTix rail passes?", "which rail passes can I buy?"],
+     "responses":["You may purchase monthly and weekly passes, round trip (Adult, Child & Senior/Disabled) and one-way (Adult, Child & Senior/Disabled) and 10 trip rail tickets through the mobile app."]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["What type of bus tickets can I purchase with MyTix?", "bus passes?", "buy bus passes?"],
+     "responses":["You may purchase monthly bus passes, one way (Adult, Child & Senior/Disabled), Discounted Ten-Trip and Round Trip Excursions through the mobile app."]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["What type of light rail tickets can I purchase with MyTix?","light rail ticket options?", "which light rail passes can I buy?"],
+     "responses":["You may purchase monthly passes, one-way (Adult, Child & Senior/Disabled), and Ten-Trip tickets through the mobile app."]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["What forms of payment can I use?", "how can I pay?","forms of payment"],
+     "responses":["MyTix accepts credit and debit cards, MasterCard and Visa branded commuter benefit cards, Apple Pay, Google Pay and PayPal.\n\nTransit checks are not accepted on the app. The app allows you to use multiple cards to pay for a single transaction, so if your commuter benefit card balance does not cover the cost of your ticket, you can use a second card to pay the balance due."]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["Are there any fees?", "what are the fees?", "fees?"],
+     "responses":["The app is free, and there are no surcharges for using a mobile ticket. You are responsible for any data charges you may incur from your network provider."]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["When purchasing a ticket do the Origin and Destination have to match my direction of travel?"],
+     "responses":["No, all tickets are valid in either direction. \n\nFor example, traveling from NY Penn to Elizabeth, you may use either an NY Penn / Elizabeth ticket or an Elizabeth / NY Penn ticket."]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["Are receipts available for my mobile ticket purchases?"],
+     "responses":["Yes. A receipt will be sent to the email address you provided for your account."]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["Do children need a ticket to ride trains/buses/light rail?"],
+     "responses":["Children under 4 years old ride free, children between the ages and 5-11 need a child fare ticket except when Family Super Saver is in effect. Family Super Saver: Two children ages five through 11 may travel free with a passenger paying any valid fare during weekends and holidays from 7 p.m. Friday (or the day before a holiday) until 6 a.m. Monday (or the day after a holiday)."]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["How do I purchase and use a rail reduced fare mobile ticket (Child, Senior/Disabled and Military)?"],
+     "responses":["The process of purchasing a mobile ticket is the same regardless of ticket type or rider type.  Child tickets are valid for children ages 5-11. Senior/Disabled and Military tickets require that identification be shown to a conductor or ticket inspector."]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["Are military personnel eligible for a reduced fare?"],
+     "responses":["All military personnel and their dependents will be permitted to purchase transportation at the senior citizen/passenger with disabilities reduced fare rate with presentation of their military or military dependent ID card. The following military personnel are entitled to this fare: active duty, reservists, National Guard or retired members from the Army, Navy, Air Force, Marines or Coast Guard. \n When purchasing your ticket, select Senior/Disabled to obtain the discounted fare. Eligible customers may ride at reduced fare rates on any NJ TRANSIT bus, rail or light rail service at all times, without restriction, upon presentation of authorized identification."]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["Can I use commuter benefit cards to purchase mobile tickets using MyTix?"],
+     "responses":["You can use your Visa or MasterCard branded commuter benefit card to purchase your mobile ticket; however, you cannot use transit checks to purchase a mobile ticket.  The app allows you to use multiple cards to pay for a single purchase, so if your commuter benefit card balance does not cover the cost of your ticket, you can use a second card to pay the balance due."]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["How many tickets can I purchase?"],
+     "responses":["There is a purchase limit of ten tickets per ticket type, except monthly and weekly passes, and FLEXPASS. One monthly or weekly pass can be purchased on your device for use per calendar month/week. You may only buy and own one FLEXPASS per mode at a time."]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["When can I purchase my monthly pass?"],
+     "responses":["You may purchase a monthly pass beginning at 5:00 p.m. on the 19th of the previous month until 11:59 pm on the 10th of the month in which the pass is valid."]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["When can I purchase my rail weekly pass?"],
+     "responses":["You may purchase a rail weekly pass beginning the Thursday before and continuing through Tuesday of the week the pass is valid."]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["Can bus tickets and passes be used for routes/origins & destinations other than the one selected during my purchase?"],
+     "responses":["Yes, bus passes are valid on any bus route to any origin and destination as long as the pass is valid for the number of zones traveled."]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["How do I find out how many bus zones I need for my trip?"],
+     "responses":["When purchasing bus tickets and pass using the Route & Zone selection. Use the Destination Conversion table to confirm that you have selected the correct number of zones for your trip. The municipalities, landmarks, and bus terminals displayed should match your trip, if not, select by Origin & Destination to ensure that you have the correct number of zones. Reminder for travel to NY/Philadelphia, you must select INTERSTATE."]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["What is Flex Pass?"],
+     "responses":["Flex Pass is a discounted multiple-trip pass consisting of 20 One Way Adult Tickets, offered at 20% off the regular purchase price.\n\nTickets are Non-Refundable and will expire in 30 days including the date of purchase.\n\nCustomers may only purchase one Flex Pass at a time. An additional Flex Pass can only be purchased once any unused Flex Pass tickets in your account have been used."]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["How do I purchase NJ TRANSIT/ SEPTA rail tickets?"],
+     "responses":["The joint NJ TRANSIT SEPTA ticket comes in two parts, one for the NJ TRANSIT portion of the trip and the other for the SEPTA trip connecting at Trenton Transit Center. When purchasing an NJ TRANSIT/ SEPTA rail joint ticket, use one of the following SEPTA station options.\n\nPhila 30th St./ 30th St. Phila for Philadelphia 30th St. station for stops including travel to/from 30th St., Suburban Station, Jefferson Station, Temple University, and University City.\n\n-OR-\n\nSEPTA - Intermediate for stops including travel to/from Levittown, Bristol, Croydon, Eddington, Cornwells Heights, Torresdale, Holmesburg Jct., Tacony, Bridesburg, North Philadelphia.\n\n-OR-\n\nSEPTA - Tunnel for travel to/from any other SEPTA Regional Rail station not on the Trenton Line."]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["How do I purchase a Student Monthly Pass?"],
+     "responses":["Full-time college students can save 25 percent on NJ TRANSIT Monthly Passes when their school participates in our University Partnership Program. Sign up through the participating college/university student web portal and click the Student Enrollment link to complete your enrollment."]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["Once I have completed my enrollment, how do I purchase my student monthly pass in subsequent months?"],
+     "responses":["During the enrollment process your status as a full time student is confirmed with your college/university, you are then eligible to purchase the discounted student pass for the balance of that semester. You can purchase the discounted pass directly in the NJT app."]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["For which months can I purchase a student monthly pass?"],
+     "responses":["Student monthly passes are sold for travel during the months from August through May. "]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["When can I purchase my student monthly pass?"],
+     "responses":["You may purchase a monthly pass beginning at 5:00 p.m. on the 19th of the previous month until 11:59 pm on the 10th of the month in which the pass is valid."]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["If I have a student monthly pass, can I purchase round trip and one way rail tickets for friends & family traveling with me?"],
+     "responses":["Yes, you may. Simply select the Buy option in the navigation menu to purchase any additional tickets."]
+    },
+    {"tag":"buying_tickets",
+     "patterns":["How do I use my Student Monthly Pass?"],
+     "responses":["The Student Monthly pass is for the personal use of the Student who purchased it and is restricted for use traveling to/from stations indicated on the pass for the sole purpose of attending school. Student passes are not honored to or from any other rail station except those printed on the pass, but they may be used on certain buses and light rail vehicles as permitted under NJ TRANSIT cross-honoring policies."]
+    },
+    {"tag":"using_tickets",
+     "patterns":["How do I activate my mobile ticket?"],
+     "responses":["To activate your mobile ticket, select My Tickets and go to the Active/Non-Active tab, tap on the circle to the right of the ticket/tickets you want to use for this trip, and then tap Activate Selected Tickets. The app will ask you to confirm that you want to activate the selected ticket(s).  If multiple tickets are selected, the quantity selected will display on a single ticket."]
+    },
+    {"tag":"using_tickets",
+     "patterns":["When should I activate my mobile ticket?"],
+     "responses":["Tickets must be activated prior to boarding and be ready to be displayed to the conductor/operator.  An internet connection is required to activate tickets, once active, tickets can be displayed without an internet connection.  Your monthly pass will self activate at midnight on the first of the month.  Your weekly pass will self activate at 12:01 a.m. on Saturday."]
+    },
+    {"tag":"using_tickets",
+     "patterns":["How do I activate multiple tickets?"],
+     "responses":["To activate tickets for a single trip, select My Tickets and go to the Active/Non-Active tab, tap the circle to the right of each ticket you want to use and then tap Activate Selected Tickets.  The app will ask you to confirm that you want to activate the selected number of tickets. The quantity selected will display on a single ticket."]
+    },
+    {"tag":"using_tickets",
+     "patterns":["How do I display my active ticket(s)?"],
+     "responses":["Select the My Active Ticket tile in the home screen and tap on it, your ticket will display.  You can also select My Tickets and go to the Active/Non-Active tab to display your active ticket(s)."]
+    },
+    {"tag":"using_tickets",
+     "patterns":["What happens if my light rail ticket isn't completely active when the Fare Enforcement Officer requests my ticket?"],
+     "responses":["It is your responsibility to have a completely activated and valid ticket. If your ticket doesn't display as completely activated, you will be subject to fines up to $100 pursuant to NJAC 16:87-3.1, and repeat offenders may be subject to criminal theft of service charges."]
+    },
+    {"tag":"using_tickets",
+     "patterns":["Why do Light Rail tickets have a three-minute activation delay?"],
+     "responses":["The Newark Light Rail, Hudson-Bergen Light Rail, and River LINE operate as a proof-of-payment fare collection system. This policy requires that customers have a completely activated ticket before entering the pre-paid area, boarding a light rail car and until you leave the station area at your destination. Under the proof-of-payment fare collection system, tickets will not be collected. Passengers should be prepared to show a completely activated mobile ticket or a monthly pass to a Fare Enforcement Officer if requested. If when displayed, your ticket is not shown as completely activated, you will be subject to fines up to $100."]
+    },
+    {"tag":"using_tickets",
+     "patterns":["Do mobile tickets expire?"],
+     "responses":["One-way and round-trip mobile tickets do not expire. They are valid until activated."]
+    },
+    {"tag":"using_tickets",
+     "patterns":["How long will a rail ticket stay active?"],
+     "responses":["Rail round trip and one-way mobile tickets are active for two hours and forty five minutes. A rail monthly pass will automatically activate at midnight on the first day of the month and expire at noon on the first business day of the next month. A weekly pass will automatically activate at 12:01 a.m. on Saturday and expire at 6:00 a.m. the following Saturday."]
+    },
+    {"tag":"using_tickets",
+     "patterns":["If I have a monthly or weekly pass, can I purchase round trip and one way rail tickets for friends & family traveling with me?"],
+     "responses":["Yes, you may. Simply select the Buy option in the navigation menu to purchase any additional tickets."]
+    },
+    {"tag":"using_tickets",
+     "patterns":["How do I display multiple tickets?"],
+     "responses":["To activate multiple tickets for a single trip, tap the box to the right of each of the tickets that you want to activate and then tap Activate Selected Tickets. Tickets of the same origin and destination may be displayed together on a single screen for multiple riders."]
+    },
+    {"tag":"using_tickets",
+     "patterns":["If I have activated multiple rail tickets, how do we go through the faregates at Secaucus Junction or Newark Liberty International Airport?"],
+     "responses":["The barcode must be scanned on the faregate reader for each passenger traveling through the gates."]
+    },
+    {"tag":"using_tickets",
+     "patterns":["If I'm traveling with a group of people, how many tickets can I activate at one time."],
+     "responses":["You may activate 5 tickets of the same type and origin/destination at the same time. \nFor example, if there are 8 people in the group, select 5 of the 8 tickets needed for travel from My Tickets section and click Active Ticket(s). Then select the next 3 tickets from the My Tickets and click Activate Ticket(s). These ticket will show on your account as separate multi-tickets in the Active Tickets in the My Tickets section of the app for display during your trip."]
+    },
+    {"tag":"using_tickets",
+     "patterns":["When do I use the barcode on the ticket?"],
+     "responses":["Customers transferring through Secaucus Junction or Newark Liberty International Airport will need to scan the barcode on the faregate readers to pass through the gates. On board a conductor or ticket inspector may scan your barcode with a handheld device to check the validity of your ticket."]
+    },
+    {"tag":"using_tickets",
+     "patterns":["How do conductors verify my mobile ticket(s)/ pass once active and displaying the barcode?"],
+     "responses":["There are two ways of validating mobile ticket(s)/ pass once the mobile ticket is activated and displayed.\n\nVisual Verification: Conductors visually inspect the activated ticket(s)/ pass.\n\nMobile Verification: Conductors will electronically scan the barcode.\nNJ TRANSIT asks that you always have your mobile device ready to display your mobile ticket(s)/ pass for verification during the fare collection process."]
+    },
+    {"tag":"using_tickets",
+     "patterns":["Will monthly and weekly rail passes be honored on buses and light rail?"],
+     "responses":["Yes, mobile monthly and weekly rail passes have the same travel flexibility as paper passes.  If you have a monthly rail pass valued at $54 or more, you can use it on any NJ TRANSIT light rail line or bus up to the number of zones indicated on the pass. If you have a weekly rail pass, you can use it for a one zone ride on any NJ TRANSIT light rail line or bus. Simply display your rail pass on your mobile phone to the bus operator or light rail fare inspector. \n\nBus and light rail monthly passes are not valid for rail travel, with limited exceptions. Bus and light rail monthly passes (showing a zone number) are valid for any bus or light rail trip at no additional charge during the period the pass is valid.  A two zone or greater monthly bus pass is required to ride the Hudson-Bergen Light Rail."]
+    },
+    {"tag":"using_tickets",
+     "patterns":["Can bus one way, round trip or discounted 10 trip mobile tickets be used for travel on the Light Rail?"],
+     "responses":["No, bus one way, round trip and discounted 10 trip mobile tickets are NOT valid for travel on the Newark Light Rail, Hudson-Bergen Light Rail or the River LINE."]
+    },
+    {"tag":"using_tickets",
+     "patterns":["Can light rail one-way, round-trip, or ten-trip mobile tickets be used for travel on buses?"],
+     "responses":["No, light rail one-way, round trip, and ten-trip mobile tickets are NOT valid for travel on buses at this time. Additional ticket types will be added to accommodate intermodal travel between light rail and buses in a future app release."]
+    },
+    {"tag":"using_tickets",
+     "patterns":["How long can I hold onto purchased rail tickets without activating them?"],
+     "responses":["Round trip and one-way tickets that have not been activated will remain in your account until you use them.  There is no expiration date for non-active tickets."]
+    },
+    {"tag":"using_tickets",
+     "patterns":["Can bus one-way, round-trip or discounted ten-trip mobile tickets be used for travel on the light rail?"],
+     "responses":["Bus one-way, round-trip and discounted ten-trip mobile tickets are not valid for travel on the Newark Light Rail, Hudson-Bergen Light Rail or the River LINE."]
+    },
+    {"tag":"using_tickets",
+     "patterns":["In the event of a service disruption, will mobile tickets be honored on all NJ TRANSIT modes, as well as PATH trains and private bus carriers?"],
+     "responses":["In the event of a service disruption, mobile tickets will follow the same cross-honoring rules set for paper tickets/passes."]
+    },
+    {"tag":"using_tickets",
+     "patterns":["After I activate a rail ticket if I experience an extended service disruption lasting longer than two hours and 45 minutes, will my ticket be accepted at the fare gates at Secaucus, or by conductors on connecting trains?"],
+     "responses":["If your trip takes longer than expected and your ticket expires, you will be able to display your ticket details to the faregate representative, conductor or ticket inspector. This will verify your recently expired ticket and allow you to continue your trip."]
+    },
+    {"tag":"refunding_tickets_and_passes",
+     "patterns":["Is my ticket refundable?"],
+     "responses":["Refunds are available ONLY for the following ticket types:\nMonthly bus passes\nDiscounted bus ten trip ticket set\nRail monthly or weekly passes\nWholly unused rail ten trip ticket set none of the tickets have been used for travel\nLight rail monthly passes\nWholly unused light rail ten trip ticket set none of the tickets have been used for travel"]
+    },
+    {"tag":"refunding_tickets_and_passes",
+     "patterns":["How do I refund a rail ticket?"],
+     "responses":["Refunds are only available for monthly and weekly passes. To refund a monthly or weekly pass, find the pass in your All Tickets tab and then swipe left and select Refund. Rail 10 Trip tickets can be refunded only if NONE of the tickets have been used for travel. Refunds are not available for partially used rail ten-trips."]
+    },
+    {"tag":"refunding_tickets_and_passes",
+     "patterns":["How do I refund a bus ticket?"],
+     "responses":["Refunds are only available for monthly passes and discounted ten-trips. To refund a monthly pass or discounted ten-trip, find the pass in your All Tickets tab and then swipe left and select Refund."]
+    },
+    {"tag":"refunding_tickets_and_passes",
+     "patterns":["How do I refund a light rail ticket?"],
+     "responses":["Refunds are available for monthly passes and wholly unused ten trip tickets. To refund a monthly or wholly unused ten-trip, find the ticket in your All Tickets Tab, then swipe left and select Refund."]
+    },
+    {"tag":"refunding_tickets_and_passes",
+     "patterns":["How is my refund calculated?"],
+     "responses":["For monthly/weekly passes prior to the first business day of the calendar month/week you will receive a full refund.  After the start of the month/week, if the refund is requested immediately following the purchase, the full amount charged for the monthly/weekly pass will be refunded. For all other refunds, the cost of two one-way tickets will be deducted from the refund amount for each business day you had the pass. \n\nWholly unused bus discounted ten-trips will be refunded at the purchase price. For partially used bus discounted ten-trip tickets, the applicable full one-way fare will be deducted from the purchase price for each ticket that has been activated."]
+    },
+    {"tag": "technical",
+     "patterns":["Does MyTix track my location? If so, how is that information used?","track", "location", "information", "used"],
+     "responses":["Yes.  While you are using the app, it tracks your approximate location anonymously.  This data will be used to help improve the performance of our system."]
+    },
+    {"tag": "technical",
+    "patterns":["If I select Remember Me when signing in, what does it mean?", "remember", "signing", "select"],
+    "responses":["You will not have to enter your password each time you open the app. The app will store your password on your mobile device."]
+    },
+    {"tag": "technical",
+     "patterns":["Is my credit card information stored on my phone?", "credit card", "stored", "store"],
+     "responses":["No, credit card information is not stored on your phone.  Your credit card information is securely transmitted to the bank authorizer where it is saved on servers that comply with Payment Card Industry Security Standards."]
+    },
+     {"tag": "technical",
+     "patterns":["Can I use the app on an iPad or similar tablet?", "iphone", "andorid", "samsung", "apple", "app store", "app", "download", "ipad", "similar", "tablet" ],
+     "responses":["Yes, The app can be used on iPhone, iPad and tablets running the Android operating system with cellular service.  You cannot use MyTix on both your mobile phone and a tablet, your account is linked to a single device."]
+    },
+    {"tag": "technical",
+     "patterns":["What happens if my mobile device battery dies before I am able to display my mobile ticket to the conductor/operator?"],
+     "responses":["It is your responsibility to have a charged and operational phone so that you are able to display your mobile ticket."]
+    },
+    {"tag": "technical",
+    "patterns":["What happens if my phone is lost, stolen or I replace it?"],
+    "responses":["If your mobile phone is lost/stolen/replaced, once you have your new phone, you can sign in to your MyTix account with your User ID (email) and password.  If you have active or non-active tickets and you do not see them, then please delete and reinstall the app.  If you still do not see your ticket(s), contact NJ TRANSIT at 973.275.5555 for assistance importing your tickets to your new phone."]
+    },
+    {"tag": "technical",
+    "patterns":["What should I do if I am having technical problems?"],
+    "responses":["You can select More > Contact Us, or call Customer Service at 973-275-5555."]
+    },
+    {"tag": "know before you go",
+    "patterns":["What are My Transit Alerts?"],
+    "responses":["You will receive My Transit Alerts when we need to communicate information on service disruptions, special events or service changes.  Notifications must be turned on to receive all alerts.  To receive Alerts & Advisories specific to a rail line and/or bus route customize alerts within the app."]
+    },
+    {"tag": "know before you go",
+    "patterns":["What are Service Advisories?"],
+    "responses":["Advisories let you know of schedule changes, service adjustments and news about your origin or destination, including updates about elevators, escalators, and boarding changes."]
+    },
+    {"tag": "know before you go",
+    "patterns":["How can I learn how full my bus or train may be?"],
+    "responses":["View MyBus or DepartureVision information for your trip, the color-coded icons (green, yellow, red) indicate light, medium, and heavy passenger travel."]
+    },
+    {"tag": "know before you go",
+    "patterns":["How can I be alerted when I reach my train station?"],
+    "responses":["With Arrival Alerts, you can receive notifications as your train approaches and arrives at your destination. View your train in DepartureVision, tap the alarm bell next to your destination to set an alert."]
+    },
+    {"tag": "know before you go",
+    "patterns":["How do I favorite bus stops and/or train stations?"],
+    "responses":["Tap the star next to a station, train or bus route you would like to favorite from DepartureVision or MyBus; or when planning a trip tap the star next to the origin/destination for the light rail station. Favorited locations will appear at the top of the Origin/Destination list for quick and easy selection and in the Favorites tab."]
+    },
+    {"tag": "know before you go",
+    "patterns":["What are MyTix Alerts?"],
+    "responses":["You will receive MyTix Alerts whenever we need to communicate with you information specific to the MyTix app. Notifications must be turned on to receive MyTix Alerts."]
+    },
+    {"tag": "know before you go",
+    "patterns":["How can I learn how full my bus or train may be?"],
+    "responses":["View MyBus or DepartureVision information for your trip, the color-coded icons (green, yellow, red) indicate light, medium, and heavy passenger travel."]
+    },
+    {"tag": "know before you go",
+    "patterns":["What are Service Advisories?"],
+    "responses":["Advisories let you know of schedule changes, service adjustments and news about your origin or destination, including updates about elevators, escalators, and boarding changes. "]
+    },
+    {"tag": "know before you go",
+    "patterns":["How do I plan my trip?"],
+    "responses":["Access the Trip Planner from Rider Tools at the bottom menu. Enter your origin/destination using your choice of Station Name, Address, or the GPS location function of your device."]
+    },
+    {"tag": "know before you go",
+    "patterns":["What's Departure Vision?"],
+    "responses":["Real-time train departure times and tracks by station."]
+    },
+    {"tag": "know before you go",
+    "patterns":["What is MyBus?"],
+    "responses":["Handy tools to get the status for your bus or light rail train. Enter the Stop ID of your bus stop/light rail station for real-time bus arrival times at that stop or light rail station."]
+    },
+    {"tag": "know before you go",
+    "patterns":["Where can I find schedules in the app?"],
+    "responses":["Get schedules for trains, buses, or your light rail service from the Home > Schedules"]
+    },
+    {"tag": "know before you go",
+    "patterns":["How can I find the closest service near my location?"],
+    "responses":["Make sure you have enabled GPS location settings for the app. This will provide the best experience using Rider Tools > Trip Planner > My Location to select your location or enter a particular address."]
+    }
+]
 }
-]}
