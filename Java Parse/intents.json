@@ -238,6 +238,86 @@
     {"tag":"refunding_tickets_and_passes",
      "patterns":["How is my refund calculated?"],
      "responses":["For monthly/weekly passes prior to the first business day of the calendar month/week you will receive a full refund.  After the start of the month/week, if the refund is requested immediately following the purchase, the full amount charged for the monthly/weekly pass will be refunded. For all other refunds, the cost of two one-way tickets will be deducted from the refund amount for each business day you had the pass. \n\nWholly unused bus discounted ten-trips will be refunded at the purchase price. For partially used bus discounted ten-trip tickets, the applicable full one-way fare will be deducted from the purchase price for each ticket that has been activated."]
+    },
+    {"tag": "technical",
+     "patterns":["Does MyTix track my location? If so, how is that information used?","track", "location", "information", "used"],
+     "responses":["Yes.  While you are using the app, it tracks your approximate location anonymously.  This data will be used to help improve the performance of our system."]
+    },
+    {"tag": "technical",
+    "patterns":["If I select Remember Me when signing in, what does it mean?", "remember", "signing", "select"],
+    "responses":["You will not have to enter your password each time you open the app. The app will store your password on your mobile device."]
+    },
+    {"tag": "technical",
+     "patterns":["Is my credit card information stored on my phone?", "credit card", "stored", "store"],
+     "responses":["No, credit card information is not stored on your phone.  Your credit card information is securely transmitted to the bank authorizer where it is saved on servers that comply with Payment Card Industry Security Standards."]
+    },
+     {"tag": "technical",
+     "patterns":["Can I use the app on an iPad or similar tablet?", "iphone", "andorid", "samsung", "apple", "app store", "app", "download", "ipad", "similar", "tablet" ],
+     "responses":["Yes, The app can be used on iPhone, iPad and tablets running the Android operating system with cellular service.  You cannot use MyTix on both your mobile phone and a tablet, your account is linked to a single device."]
+    },
+    {"tag": "technical",
+     "patterns":["What happens if my mobile device battery dies before I am able to display my mobile ticket to the conductor/operator?"],
+     "responses":["It is your responsibility to have a charged and operational phone so that you are able to display your mobile ticket."]
+    },
+    {"tag": "technical",
+    "patterns":["What happens if my phone is lost, stolen or I replace it?"],
+    "responses":["If your mobile phone is lost/stolen/replaced, once you have your new phone, you can sign in to your MyTix account with your User ID (email) and password.  If you have active or non-active tickets and you do not see them, then please delete and reinstall the app.  If you still do not see your ticket(s), contact NJ TRANSIT at 973.275.5555 for assistance importing your tickets to your new phone."]
+    },
+    {"tag": "technical",
+    "patterns":["What should I do if I am having technical problems?"],
+    "responses":["You can select More > Contact Us, or call Customer Service at 973-275-5555."]
+    },
+    {"tag": "know before you go",
+    "patterns":["What are My Transit Alerts?"],
+    "responses":["You will receive My Transit Alerts when we need to communicate information on service disruptions, special events or service changes.  Notifications must be turned on to receive all alerts.  To receive Alerts & Advisories specific to a rail line and/or bus route customize alerts within the app."]
+    },
+    {"tag": "know before you go",
+    "patterns":["What are Service Advisories?"],
+    "responses":["Advisories let you know of schedule changes, service adjustments and news about your origin or destination, including updates about elevators, escalators, and boarding changes."]
+    },
+    {"tag": "know before you go",
+    "patterns":["How can I learn how full my bus or train may be?"],
+    "responses":["View MyBus or DepartureVision information for your trip, the color-coded icons (green, yellow, red) indicate light, medium, and heavy passenger travel."]
+    },
+    {"tag": "know before you go",
+    "patterns":["How can I be alerted when I reach my train station?"],
+    "responses":["With Arrival Alerts, you can receive notifications as your train approaches and arrives at your destination. View your train in DepartureVision, tap the alarm bell next to your destination to set an alert."]
+    },
+    {"tag": "know before you go",
+    "patterns":["How do I favorite bus stops and/or train stations?"],
+    "responses":["Tap the star next to a station, train or bus route you would like to favorite from DepartureVision or MyBus; or when planning a trip tap the star next to the origin/destination for the light rail station. Favorited locations will appear at the top of the Origin/Destination list for quick and easy selection and in the Favorites tab."]
+    },
+    {"tag": "know before you go",
+    "patterns":["What are MyTix Alerts?"],
+    "responses":["You will receive MyTix Alerts whenever we need to communicate with you information specific to the MyTix app. Notifications must be turned on to receive MyTix Alerts."]
+    },
+    {"tag": "know before you go",
+    "patterns":["How can I learn how full my bus or train may be?"],
+    "responses":["View MyBus or DepartureVision information for your trip, the color-coded icons (green, yellow, red) indicate light, medium, and heavy passenger travel."]
+    },
+    {"tag": "know before you go",
+    "patterns":["What are Service Advisories?"],
+    "responses":["Advisories let you know of schedule changes, service adjustments and news about your origin or destination, including updates about elevators, escalators, and boarding changes. "]
+    },
+    {"tag": "know before you go",
+    "patterns":["How do I plan my trip?"],
+    "responses":["Access the Trip Planner from Rider Tools at the bottom menu. Enter your origin/destination using your choice of Station Name, Address, or the GPS location function of your device."]
+    },
+    {"tag": "know before you go",
+    "patterns":["What's Departure Vision?"],
+    "responses":["Real-time train departure times and tracks by station."]
+    },
+    {"tag": "know before you go",
+    "patterns":["What is MyBus?"],
+    "responses":["Handy tools to get the status for your bus or light rail train. Enter the Stop ID of your bus stop/light rail station for real-time bus arrival times at that stop or light rail station."]
+    },
+    {"tag": "know before you go",
+    "patterns":["Where can I find schedules in the app?"],
+    "responses":["Get schedules for trains, buses, or your light rail service from the Home > Schedules"]
+    },
+    {"tag": "know before you go",
+    "patterns":["How can I find the closest service near my location?"],
+    "responses":["Make sure you have enabled GPS location settings for the app. This will provide the best experience using Rider Tools > Trip Planner > My Location to select your location or enter a particular address."]
     }
-
-]}
+]
+}
