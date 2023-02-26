@@ -267,55 +267,55 @@
     "patterns":["What should I do if I am having technical problems?"],
     "responses":["You can select More > Contact Us, or call Customer Service at 973-275-5555."]
     },
-    {"tag": "know before you go",
+    {"tag": "know_before_you_go",
     "patterns":["What are My Transit Alerts?"],
     "responses":["You will receive My Transit Alerts when we need to communicate information on service disruptions, special events or service changes.  Notifications must be turned on to receive all alerts.  To receive Alerts & Advisories specific to a rail line and/or bus route customize alerts within the app."]
     },
-    {"tag": "know before you go",
+    {"tag": "know_before_you_go",
     "patterns":["What are Service Advisories?"],
     "responses":["Advisories let you know of schedule changes, service adjustments and news about your origin or destination, including updates about elevators, escalators, and boarding changes."]
     },
-    {"tag": "know before you go",
+    {"tag": "know_before_you_go",
     "patterns":["How can I learn how full my bus or train may be?"],
     "responses":["View MyBus or DepartureVision information for your trip, the color-coded icons (green, yellow, red) indicate light, medium, and heavy passenger travel."]
     },
-    {"tag": "know before you go",
+    {"tag": "know_before_you_go",
     "patterns":["How can I be alerted when I reach my train station?"],
     "responses":["With Arrival Alerts, you can receive notifications as your train approaches and arrives at your destination. View your train in DepartureVision, tap the alarm bell next to your destination to set an alert."]
     },
-    {"tag": "know before you go",
+    {"tag": "know_before_you_go",
     "patterns":["How do I favorite bus stops and/or train stations?"],
     "responses":["Tap the star next to a station, train or bus route you would like to favorite from DepartureVision or MyBus; or when planning a trip tap the star next to the origin/destination for the light rail station. Favorited locations will appear at the top of the Origin/Destination list for quick and easy selection and in the Favorites tab."]
     },
-    {"tag": "know before you go",
+    {"tag": "know_before_you_go",
     "patterns":["What are MyTix Alerts?"],
     "responses":["You will receive MyTix Alerts whenever we need to communicate with you information specific to the MyTix app. Notifications must be turned on to receive MyTix Alerts."]
     },
-    {"tag": "know before you go",
+    {"tag": "know_before_you_go",
     "patterns":["How can I learn how full my bus or train may be?"],
     "responses":["View MyBus or DepartureVision information for your trip, the color-coded icons (green, yellow, red) indicate light, medium, and heavy passenger travel."]
     },
-    {"tag": "know before you go",
+    {"tag": "know_before_you_go",
     "patterns":["What are Service Advisories?"],
     "responses":["Advisories let you know of schedule changes, service adjustments and news about your origin or destination, including updates about elevators, escalators, and boarding changes. "]
     },
-    {"tag": "know before you go",
+    {"tag": "know_before_you_go",
     "patterns":["How do I plan my trip?"],
     "responses":["Access the Trip Planner from Rider Tools at the bottom menu. Enter your origin/destination using your choice of Station Name, Address, or the GPS location function of your device."]
     },
-    {"tag": "know before you go",
+    {"tag": "know_before_you_go",
     "patterns":["What's Departure Vision?"],
     "responses":["Real-time train departure times and tracks by station."]
     },
-    {"tag": "know before you go",
+    {"tag": "know_before_you_go",
     "patterns":["What is MyBus?"],
     "responses":["Handy tools to get the status for your bus or light rail train. Enter the Stop ID of your bus stop/light rail station for real-time bus arrival times at that stop or light rail station."]
     },
-    {"tag": "know before you go",
+    {"tag": "know_before_you_go",
     "patterns":["Where can I find schedules in the app?"],
     "responses":["Get schedules for trains, buses, or your light rail service from the Home > Schedules"]
     },
-    {"tag": "know before you go",
+    {"tag": "know_before_you_go",
     "patterns":["How can I find the closest service near my location?"],
     "responses":["Make sure you have enabled GPS location settings for the app. This will provide the best experience using Rider Tools > Trip Planner > My Location to select your location or enter a particular address."]
     }
