@@ -1,0 +1,96 @@
+*{ font-family: 'Roboto', sans-serif;}
+
+body{
+    text-align: center;
+}
+
+input[type=button]{
+    font-family: 'Noto Sans NKo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: transparent;
+    border-width: 0;
+    font-size: 24px;
+    font-weight: inherit;
+    line-height: inherit;
+    padding: 0;
+    cursor: pointer;
+}
+
+input[type=button]:focus{
+    color:greenyellow;
+}
+
+*{
+    background-color: black;
+    color: aliceblue;
+}
+
+.master_container{
+    padding-top: 50px;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    width: 350px;
+    height: 400px;
+}
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 12px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+#form{
+    width: 90%;
+    padding-top: 35px;
+}
+
+#confirm{
+    width: 80%;
+    border: 2px solid green;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+#confirm:hover{
+    background:green;
+}
+
+.button_container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+
+#forgot{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: auto;
+    margin-left:auto;
+    width: auto;
+    text-decoration: none;
+}
+
+
+form{
+    display: inline-block;
+}
+
+.form input{
+    display:block;
+    margin-bottom: 1em;
+}
+
+#remember{
+    margin-top: 12px;
+}
